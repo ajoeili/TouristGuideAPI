@@ -1,0 +1,7 @@
+POST http://localhost:8080/attractions/add
+Content-Type: application/json
+
+{
+  "name": "The Great Wall of China",
+  "descriptition": "Long wall in China"
+}

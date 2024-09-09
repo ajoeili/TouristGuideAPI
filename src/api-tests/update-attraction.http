@@ -1,0 +1,7 @@
+POST http://localhost:8080/attractions/update
+Content-Type: application/json
+
+{
+  "name": "The Eiffel Tower",
+  "descriptition": "Iconic tower in Paris, France"
+}

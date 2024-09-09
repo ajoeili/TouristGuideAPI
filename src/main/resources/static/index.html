@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to Tourist Guide</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header>
+    <h1>AROUND THE WORLD ON A BUDGET</h1>
+    <h3>The only tourist guide you will need on your budget-friendly travels!</h3>
+</header>
+
+<main>
+    <section class="content">
+        <figure>
+            <img src="images/tourist-attraction.jpg" alt="Tourist Attraction Image" width="500" height="300">
+            <figcaption>Explore popular sights regardless of budget</figcaption>
+        </figure>
+        <section class="description">
+            <p>
+                Travelling on a budget shouldn't keep you from experiencing the wonders of the world.
+                With the help of this guide you will have information on the most popular sights around the world, as well as some hidden gems.
+                We provide you with in-depth descriptions of each attraction, with information on high- and low-season prices as well as special offers throughout the year.
+                Dive in to a world of beauty and explore the sights on your own terms!
+            </p>
+        </section>
+        <nav>
+            <ul>
+                <li><a href="http://localhost:8080/attractions">View All Tourist Attractions</a></li>
+                <li>
+                    <form action="http://localhost:8080/attractions" method="get">
+                        <label for="attractionName">Find a Tourist Attraction:</label>
+                        <input type="text" id="attractionName" name="name" placeholder="Attraction Name">
+                        <button type="submit">Search</button>
+                    </form>
+                </li>
+            </ul>
+        </nav>
+    </section>
+</main>
+
+<footer>
+    <p>
+        Contact: 123 Yellow Brick Road, +45 12345678
+        <br>
+        &copy; 2024 Budget Tourist Guide. All rights reserved.
+
+    </p>
+</footer>
+</body>
+</html>
